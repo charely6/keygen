@@ -6,6 +6,44 @@ function key_move(points, offset) = [
                    p[1] + offset[1]]
 ];
 
+function offset_calc(outline_points, warding_points,range=0.5) =
+    let(bladeBot=bottom_of_blade(outline_points,warding_points))
+    [for(i=[0:len(outline_points)-1])
+        if(abs(outline_points[i][1]-bladeBot)<range)i  
+        //outline_points[i][0]-bladeBot
+     ];
+        
+    /*Using outline and warding points this is finding a list of points from the outline
+    that should all be along or near the bottom of the key's blade
+    This module should show the outline and the suggested points someplace
+    in blue and green, you should be able to use these points when defining your offset
+    it will look something like this
+    [-outline_points[92][0], -outline_points[98][1]]
+    If you don't see any green along the bottom of the key outline, add ,range=1 to
+    to this module call that will increase the area around the
+    calculated bottom it returns*/
+        
+module offsetCompare(outline_points,warding_points, range=0.5){
+    echo("offset suggestion");
+    echo("use one of these values for making your offset value more info in keygen.scad");
+    offset_suggestion_indexes= offset_calc(outline_points,warding_points, range);
+    offset_suggestion=[for(i=[0:len(offset_suggestion_indexes)-1]) outline_points[offset_suggestion_indexes[i]]];
+    echo(offset_suggestion_indexes);
+    color("green")
+    translate([0,0,4])
+    polygon(offset_suggestion);
+    color("blue")
+    polygon(outline_points);
+}
+
+function bottom_of_blade(outline_points, warding_points) =
+     vertical_middle_calc(outline_points)-(height_calc(warding_points)/2);
+    
+function vertical_middle_calc(points) = 
+    (height_calc(points)/2+ min([for(e=points) e[1]]));
+
+function height_calc(points) = max([for(e=points) e[1]]) - min([for(e=points) e[1]]);
+
 module key_outline(outline_points, thickness, outline_paths=undef) {
     rotate(-90, [0, 1, 0]) rotate(-90, [0, 0, 1]) // Rotate into the correct plane
         linear_extrude(height=thickness, center=true) // Extrude the key outline
