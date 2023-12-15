@@ -1,5 +1,5 @@
 use <keygen.scad>
-include <kwikset.gen.scad>
+include <gen/kwikset.gen.scad>
 
 module kwikset(bitting="",
                outline_name="KW1",
