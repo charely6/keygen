@@ -18,9 +18,11 @@ module kwikset(bitting="",
                    engrave_k1_points,
                    engrave_k1_paths]];
     wardings_k = ["K1",
-                  "K2"];
+                  "K2",
+                  "141"];
     wardings_v = [warding_k1_points,
-                  warding_k2_points];
+                  warding_k2_points,
+                  warding_141_points];
 
     outline_param = key_lkup(outlines_k, outlines_v, outline_name);
     outline_points = outline_param[0];

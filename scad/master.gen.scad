@@ -16,7 +16,18 @@ outline_k1_paths = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1
 warding_k2_points = [[39.271415, 3.568360], [38.467955, 3.568164], [38.467945, 0.208911], [37.291405, -0.545275], [37.291435, -3.567470], [39.119015, -3.567560], [39.260355, -2.577206], [37.987915, -2.577382], [37.988145, -1.475532], [39.271385, -0.652346]];
 warding_k2_paths = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]];
 
+
+// !!!NOTICE!!!
+// the outline for 141 is different from normal K1
+// don't push the key all the way in when using the printed key
+// the actual measurement for .4 and .6 should be .5. 
+// the .4 and .6 here is to make the printed key more robust for low accuracy 3d print
+// you can also change it to .3 and .7 if your key still stucked
+warding_141_points = [[20, 4], [21, 4], [21, 0], [22, 0], [22, -1], [21.4, -1], [21.4, -2], [22, -2], [22, -3], [20, -3], [20, -1.5], [20.6, -1.5], [20.6, -0.5], [20, -0.5]];
+warding_141_paths = [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]];
+
 //polygon(points=engrave_k1_points, paths=engrave_k1_paths);
 //polygon(points=warding_k1_points, paths=warding_k1_paths);
 //polygon(points=outline_k1_points, paths=outline_k1_paths);
 //polygon(points=warding_k2_points, paths=warding_k2_paths);
+//polygon(points=warding_141_points, paths=warding_141_paths);
