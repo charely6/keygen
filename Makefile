@@ -13,7 +13,7 @@ endif
 
 SCAD_DIR = scad
 SVG_DIR = resources
-POLY_DIR = scad
+POLY_DIR = scad/gen
 JSON_DIR = build
 
 # Files to include
