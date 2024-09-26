@@ -165,7 +165,7 @@ module m3_slider(slider_depth) {
         // Creates a cuboid cut in the finished Medeco M3 key blank for the M3 slider element
         difference()  {
             translate([-1.4445,-slider_depth-30,0])
-                cube([1,30,2.16]); //measurements of slider dimensions taken from a couple M3 keys. M3 slider depths appear to be in 0.1" increments (from 0.3" - 0.7" possibly?)
+                cube([1,30,2.6]); //measurements of slider dimensions taken from a couple M3 keys. M3 slider depths appear to be in 0.1" increments (from 0.3" - 0.7" possibly?)
     }
 	
 }

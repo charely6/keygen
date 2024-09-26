@@ -87,7 +87,7 @@ module medeco_biaxial(bitting="",
 
 // Defaults
 bitting="";
-outline="1518";
-warding="1518";
+outline="1644";
+warding="1644";
 medeco_biaxial(bitting, outline, warding);
 	

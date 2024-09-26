@@ -1,5 +1,5 @@
 use <keygen.scad>
-include <schlage.gen.scad>
+include <gen/schlage.gen.scad>
 
 module schlage_classic(bitting="",
                        outline_name="5-pin",

@@ -1,5 +1,5 @@
 use <keygen.scad>
-include <schlage.gen.scad>
+include <gen/schlage.gen.scad>
 
 module side_bit_milling(cut_locations, bitting="") {
     sbm_cut_locations = [for(i=[0:len(cut_locations)-2]) 0.5 * (cut_locations[i] + cut_locations[i+1])];
