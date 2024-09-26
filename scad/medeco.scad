@@ -1,4 +1,4 @@
-include <medeco.gen.scad>
+include <gen/medeco.gen.scad>
 
 outlines_k = ["A1515",
               "1515",
@@ -34,7 +34,7 @@ outlines_v = [[outline_a1515_points, outline_a1515_paths,
                engrave_1518_points,
                engrave_1518_paths],
               [outline_1542_points, outline_1542_paths,
-               [-outline_1542_points[92][0], -outline_1542_points[98][1]],
+               [-outline_1542_points[52][0], -outline_1542_points[40][1]],
                engrave_1542_points,
                engrave_1542_paths],
               [outline_1543_points, outline_1543_paths,

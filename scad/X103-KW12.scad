@@ -1,5 +1,5 @@
 use <keygen.scad>
-include <X103-KW12.gen.scad>
+include <gen/X103-KW12.gen.scad>
 
 module X103_KW12(bitting="",
                outline_name="X103-KW12",

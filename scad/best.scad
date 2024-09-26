@@ -1,5 +1,5 @@
 use <keygen.scad>
-include <best.gen.scad>
+include <gen/best.gen.scad>
 
 module best(bitting="",
             outline_name="1A Standard",

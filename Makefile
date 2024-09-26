@@ -13,7 +13,7 @@ endif
 
 SCAD_DIR = scad
 SVG_DIR = resources
-POLY_DIR = scad
+POLY_DIR = scad/gen
 JSON_DIR = build
 
 # Files to include
@@ -24,6 +24,7 @@ SCAD_SRC  = $(SCAD_DIR)/schlage_classic.scad \
             $(SCAD_DIR)/schlage_primus.scad \
             $(SCAD_DIR)/medeco_classic.scad \
             $(SCAD_DIR)/medeco_biaxial.scad \
+            $(SCAD_DIR)/medeco_M3.scad \
             $(SCAD_DIR)/master.scad \
             $(SCAD_DIR)/X103-KW12.scad \
 
