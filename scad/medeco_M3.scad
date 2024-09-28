@@ -2,9 +2,9 @@ use <keygen.scad>
 include <medeco.scad>
 
 module medeco_m3(bitting="",
-                      outline_name="M3",
-                      warding_name="M3",
-                      slider_depth=.6) {
+                 outline_name="M3",
+                 warding_name="M3",
+                 slider_depth=0.6) {
 
     name = "Medeco M3";
 
@@ -46,8 +46,8 @@ module medeco_m3(bitting="",
                   "1518",
                   "1542",
                   "1543",
-                  "1638",//
-                  "1644",//
+                  "1638",
+                  "1644",
                   "1655",
                   "M3"];
 
@@ -61,7 +61,7 @@ module medeco_m3(bitting="",
     warding_points = key_lkup(wardings_k, wardings_v, warding_name);
     
     cut_locations = [for(i=[0.244, 0.414, 0.584, 0.754, 0.924, 1.094]) i*25.4];
-    depth_table = [for(i=[0.280+0.025:-0.025:0.154]) i*25.4];
+    depth_table = [for(i=[0.272+0.025:-0.025:0.140]) i*25.4];
     angles_k = ["K", "B", "Q", "M", "D", "S", "L", "C", "R"];
     angles_v = [[20, -.7874], [0, -.7874], [-20, -.7874],
                 [20, .7874],  [0, .7874],  [-20, .7874], 

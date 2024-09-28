@@ -2,8 +2,8 @@ use <keygen.scad>
 include <gen/lockwood.gen.scad>
 
 module lockwood(bitting="",
-                       outline_name="LW5",
-                       warding_name="LW5") {
+                outline_name="LW5",
+                warding_name="LW5") {
 
     name = "Lockwood";
 
@@ -53,7 +53,7 @@ module lockwood(bitting="",
 }
 
 // Defaults
-bitting="4258x6";
+bitting="";
 outline="LW5";
 warding="LW5";
 lockwood(bitting, outline, warding);
