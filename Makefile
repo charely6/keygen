@@ -28,6 +28,7 @@ SCAD_SRC  = $(SCAD_DIR)/schlage_classic.scad \
             $(SCAD_DIR)/master.scad \
             $(SCAD_DIR)/X103-KW12.scad \
 	    $(SCAD_DIR)/falcon_025.scad \
+            $(SCAD_DIR)/lockwood.scad \
 
 # Generated polygon files
 POLY_OBJ = $(patsubst $(SVG_DIR)/%.svg,$(POLY_DIR)/%.gen.scad,$(SVG_SRC))
