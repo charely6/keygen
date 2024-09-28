@@ -24,10 +24,10 @@ SCAD_SRC  = $(SCAD_DIR)/schlage_classic.scad \
             $(SCAD_DIR)/schlage_primus.scad \
             $(SCAD_DIR)/medeco_classic.scad \
             $(SCAD_DIR)/medeco_biaxial.scad \
-	    $(SCAD_DIR)/medeco_M3.scad \
+	        $(SCAD_DIR)/medeco_M3.scad \
             $(SCAD_DIR)/master.scad \
             $(SCAD_DIR)/X103-KW12.scad \
-	    $(SCAD_DIR)/falcon_025.scad \
+	        $(SCAD_DIR)/falcon_025.scad \
             $(SCAD_DIR)/lockwood.scad \
 
 # Generated polygon files
