@@ -7,7 +7,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg61366"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="schlage.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -24,16 +24,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="480.5"
-     inkscape:cy="44"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="172.53405"
+     inkscape:cy="425.67828"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:window-height="1029"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
@@ -165,28 +165,12 @@
          id="uset" />
     </clipPath>
     <clipPath
-       id="clipPathN"
-       clipPathUnits="userSpaceOnUse">
-      <use
-         xlink:href="#path856"
-         transform="matrix(1.000000,0.000000,0.000000,1.000000,-284.260700,-540.054300)"
-         id="use7" />
-    </clipPath>
-    <clipPath
        id="clipPathv"
        clipPathUnits="userSpaceOnUse">
       <use
          xlink:href="#path856"
          transform="matrix(1.000000,0.000000,0.000000,1.000000,-284.260700,-540.054300)"
          id="useY" />
-    </clipPath>
-    <clipPath
-       id="clipPath7"
-       clipPathUnits="userSpaceOnUse">
-      <use
-         xlink:href="#path704"
-         transform="matrix(1.000000,0.000000,0.000000,1.000000,-414.257100,-388.156500)"
-         id="useF" />
     </clipPath>
     <clipPath
        id="clipPathW"
@@ -245,14 +229,6 @@
          id="useV" />
     </clipPath>
     <clipPath
-       id="clipPathUo"
-       clipPathUnits="userSpaceOnUse">
-      <use
-         xlink:href="#path640"
-         transform="matrix(1.000000,0.000000,0.000000,1.000000,-369.440200,-387.795400)"
-         id="usee" />
-    </clipPath>
-    <clipPath
        id="clipPathV"
        clipPathUnits="userSpaceOnUse">
       <use
@@ -309,14 +285,6 @@
          id="usew" />
     </clipPath>
     <clipPath
-       id="clipPatht"
-       clipPathUnits="userSpaceOnUse">
-      <use
-         xlink:href="#path596"
-         transform="matrix(1.000000,0.000000,0.000000,1.000000,-324.133400,-387.687700)"
-         id="useo" />
-    </clipPath>
-    <clipPath
        id="clipPathy"
        clipPathUnits="userSpaceOnUse">
       <use
@@ -325,28 +293,12 @@
          id="useYP" />
     </clipPath>
     <clipPath
-       id="clipPathj"
-       clipPathUnits="userSpaceOnUse">
-      <use
-         xlink:href="#path420"
-         transform="matrix(1.000000,0.000000,0.000000,1.000000,-188.925200,-387.869100)"
-         id="usec" />
-    </clipPath>
-    <clipPath
        id="clipPathq"
        clipPathUnits="userSpaceOnUse">
       <use
          xlink:href="#path420"
          transform="matrix(1.000000,0.000000,0.000000,1.000000,-188.925200,-387.869100)"
          id="usepC" />
-    </clipPath>
-    <clipPath
-       id="clipPathp"
-       clipPathUnits="userSpaceOnUse">
-      <use
-         xlink:href="#path792"
-         transform="matrix(1.000000,0.000000,0.000000,1.000000,-326.003200,-456.442000)"
-         id="usef" />
     </clipPath>
     <clipPath
        id="clipPathqO"
@@ -427,14 +379,6 @@
          xlink:href="#path792"
          transform="matrix(1.000000,0.000000,0.000000,1.000000,-279.070600,-389.494900)"
          id="useE" />
-    </clipPath>
-    <clipPath
-       id="clipPathK1"
-       clipPathUnits="userSpaceOnUse">
-      <use
-         xlink:href="#path792"
-         transform="matrix(1.000000,0.000000,0.000000,1.000000,-279.089900,-387.850700)"
-         id="use3" />
     </clipPath>
     <clipPath
        id="clipPath3"
@@ -541,14 +485,6 @@
          id="useH" />
     </clipPath>
     <clipPath
-       id="clipPathx5"
-       clipPathUnits="userSpaceOnUse">
-      <use
-         xlink:href="#path510"
-         transform="matrix(1.000000,0.000000,0.000000,1.000000,-233.981100,-387.890300)"
-         id="useZ" />
-    </clipPath>
-    <clipPath
        id="clipPath6"
        clipPathUnits="userSpaceOnUse">
       <use
@@ -563,14 +499,6 @@
          xlink:href="#path420"
          transform="matrix(1.000000,0.000000,0.000000,1.000000,-188.925200,-387.869100)"
          id="usec-6" />
-    </clipPath>
-    <clipPath
-       id="clipPathj-6"
-       clipPathUnits="userSpaceOnUse">
-      <use
-         xlink:href="#path420"
-         transform="matrix(1.000000,0.000000,0.000000,1.000000,-188.925200,-387.869100)"
-         id="usec-2" />
     </clipPath>
     <clipPath
        id="clipPathj-6-1"
@@ -606,7 +534,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <path
-       clip-path="url(#clipPathj-6)"
+       clip-path="none"
        id="warding_jp"
        style="fill:#0000ff;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.33333325;stroke-opacity:1;stroke-width:0.0474987573852411"
        d="M 131.073 261.868 L 131.073 260.984 L 131.91 260.619 L 131.91 260.213 L 131.073 258.445 L 131.073 258.066 L 131.374 257.912 L 131.374 257.589 L 131.095 257.449 L 131.095 257.071 L 131.978 256.663 L 131.978 256.397 C 131.978 256.397 132.603 255.906 131.978 255.359 L 131.978 253.156 L 132.983 253.156 L 132.983 257.547 L 132.089 257.982 L 132.089 258.122 L 132.983 260.058 L 132.983 261.868 Z" />
@@ -850,7 +778,7 @@
          x="36.851078 38.871555"
          style="stroke-width:0.352778">CP</tspan></text>
     <path
-       clip-path="url(#clipPathj)"
+       clip-path="none"
        id="warding_cp"
        style="fill:#0000ff;stroke:none;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.33333325;stroke-opacity:1;stroke-width:0.0474987573852411"
        d="M 37.1619 261.868 L 37.1619 260.984 L 37.9995 260.619 L 37.9995 260.213 L 37.1619 258.445 L 37.1619 258.066 L 37.4633 257.912 L 37.4633 257.589 L 37.1843 257.449 L 37.1843 257.071 L 38.0668 256.664 L 38.0668 256.397 C 38.0668 256.397 38.6921 255.906 38.0668 255.359 L 38.0668 253.156 L 39.0719 253.156 L 39.0719 257.547 L 38.1784 257.982 L 38.1784 258.122 L 39.0719 260.058 L 39.0719 261.868 Z" />
@@ -865,7 +793,7 @@
          x="51.868359 53.888836 55.717648"
          style="stroke-width:0.352778">CEP</tspan></text>
     <path
-       clip-path="url(#clipPathx5)"
+       clip-path="none"
        id="warding_cep"
        style="fill:#0000ff;stroke:none;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.33333325;stroke-opacity:1;stroke-width:0.04763690162181774"
        d="M 54.2494 261.868 L 54.2494 260.984 L 55.0582 260.605 L 55.0582 260.171 L 54.7325 259.764 L 54.7325 259.188 L 54.2494 258.473 L 54.2494 258.066 L 54.5415 257.912 L 54.5415 257.561 L 54.4741 257.519 L 54.4741 256.776 L 55.1367 256.65 L 55.1367 256.355 C 55.1367 256.355 55.7771 256.004 55.1367 255.345 L 55.1367 253.156 L 56.1365 253.156 L 56.1365 256.944 L 55.8222 257.646 L 55.8222 257.996 L 55.2492 258.123 L 55.2492 258.446 L 55.8222 258.754 L 55.8222 259.385 L 56.1594 260.086 L 56.1594 261.868 Z" />
@@ -880,7 +808,7 @@
          style="stroke-width:0.352778"
          y="265.68646">EFP</tspan></text>
     <path
-       clip-path="url(#clipPatht)"
+       clip-path="none"
        id="warding_efp"
        style="fill:#0000ff;stroke:none;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.33333325;stroke-opacity:1;stroke-width:0.0474987573852411"
        d="M 85.1814 261.868 L 85.1814 260.999 L 85.8958 260.675 L 85.8958 259.693 L 85.1924 259.315 L 85.1924 258.824 L 85.4717 258.697 L 85.4717 258.333 L 85.1697 258.192 L 85.1697 257.842 L 85.5719 257.842 L 85.5719 257.421 L 85.8294 257.294 L 85.8294 256.705 L 86.0749 256.649 L 86.0749 256.397 C 86.0749 256.397 86.7223 255.906 86.0633 255.387 L 86.0633 253.156 L 87.0797 253.156 L 87.0797 257.869 L 86.3988 258.22 L 86.3988 258.557 L 87.0797 258.936 L 87.0797 260.563 L 86.868 260.816 L 86.868 261.055 L 87.0797 261.321 L 87.0797 261.868 Z" />
@@ -895,7 +823,7 @@
          x="100.62002 102.35567"
          style="stroke-width:0.352778">FP</tspan></text>
     <path
-       clip-path="url(#clipPathUo)"
+       clip-path="none"
        id="warding_fp"
        style="fill:#0000ff;stroke:none;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.33333325;stroke-opacity:1;stroke-width:0.047354395412070614"
        d="M 101.196 261.868 L 101.196 261.012 L 102.018 260.619 L 102.018 260.17 L 101.185 259.455 L 101.185 258.824 L 101.518 258.67 L 101.518 258.038 L 101.64 257.702 L 101.185 257.351 L 101.185 256.86 L 102.084 256.649 L 102.084 256.383 C 102.084 256.383 102.695 255.92 102.073 255.401 L 102.073 253.157 L 103.083 253.157 L 103.083 256.958 L 102.34 258.585 L 102.34 258.739 L 103.095 258.894 L 103.095 260.605 L 102.861 260.858 L 102.861 261.055 L 103.072 261.335 L 103.072 261.868 Z" />
@@ -910,7 +838,7 @@
          x="115.49069 117.19969 119.32665"
          style="stroke-width:0.352778">FGP</tspan></text>
     <path
-       clip-path="url(#clipPath7)"
+       clip-path="none"
        id="warding_fgp"
        style="fill:#0000ff;stroke:none;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.33333325;stroke-opacity:1;stroke-width:0.0474987573852411"
        d="M 117.212 261.868 L 117.212 260.999 L 118.027 260.619 L 118.027 260.269 L 117.201 259.441 L 117.201 258.824 L 117.502 258.669 L 117.502 258.319 L 117.457 258.291 L 117.457 256.972 L 118.094 256.664 L 118.094 256.369 C 118.094 256.369 118.73 255.892 118.094 255.387 L 118.094 253.156 L 119.099 253.156 L 119.099 256.902 L 118.865 257.435 L 119.111 257.982 L 119.111 258.038 L 118.496 258.319 L 118.496 258.922 L 119.088 259.371 L 119.088 259.764 L 118.887 260.016 L 118.887 260.227 L 119.088 260.507 L 119.088 261.868 Z" />
@@ -925,12 +853,12 @@
          x="68.735062 70.563866"
          style="stroke-width:0.352778">EP</tspan></text>
     <path
-       clip-path="url(#clipPathK1)"
+       clip-path="none"
        id="warding_ep"
        style="fill:#0000ff;stroke:none;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.33333325;stroke-opacity:1;stroke-width:0.047780094250645326"
        d="M 69.1803 261.868 L 69.1803 260.97 L 70.017 260.578 L 70.017 259.666 L 69.1803 259.217 L 69.1803 258.796 L 69.4745 258.67 L 69.4745 258.291 L 69.1918 258.179 L 69.1918 257.674 L 70.096 256.677 L 70.096 256.369 C 70.096 256.369 70.7402 255.85 70.073 255.345 L 70.073 253.157 L 71.0903 253.157 L 71.0903 256.916 L 70.8192 257.547 L 70.1862 258.277 L 70.1862 258.403 L 71.0903 258.866 L 71.0903 261.868 Z" />
     <path
-       clip-path="url(#clipPathp)"
+       clip-path="none"
        id="warding_hp"
        style="fill:#0000ff;stroke:none;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.33333325;stroke-opacity:1;stroke-width:0.04714578560556198"
        d="M 162.984 261.868 L 162.984 261.408 L 163.662 261.093 C 163.794 261.03 163.797 260.849 163.797 260.849 L 163.797 260.022 C 163.786 259.823 163.672 259.782 163.672 259.782 L 162.984 259.41 L 162.984 259.05 L 163.288 258.909 L 163.288 258.174 L 163.918 256.783 L 163.918 256.441 C 164.237 256.218 164.198 255.887 164.198 255.887 C 164.2 255.476 163.918 255.311 163.918 255.311 L 163.918 253.157 L 164.894 253.157 L 164.894 256.998 L 163.951 258.4 L 163.951 258.962 L 164.894 259.174 L 164.894 260.805 L 164.569 261.218 L 164.569 261.323 L 164.868 261.868 Z" />
@@ -945,7 +873,7 @@
          x="147.18733 148.8298"
          style="stroke-width:0.352778">LP</tspan></text>
     <path
-       clip-path="url(#clipPathN)"
+       clip-path="none"
        id="warding_lp"
        style="fill:#0000ff;stroke:none;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.33333325;stroke-opacity:1;stroke-width:0.04745791928194172"
        d="M 148.501 253.157 L 149.468 253.157 L 149.468 257.047 L 148.903 257.896 C 148.903 257.896 148.81 257.94 148.524 258.056 L 148.524 258.684 L 149.223 260.176 L 149.223 261.453 L 149.471 261.868 L 147.561 261.868 L 147.561 261.465 L 148.242 261.164 C 148.242 261.164 148.342 261.102 148.39 260.988 L 148.39 259.856 C 148.39 259.856 148.384 259.821 148.329 259.751 L 147.888 259.146 L 147.888 258.245 L 148.502 256.841 L 148.502 256.493 C 148.502 256.493 148.799 256.378 148.799 255.913 C 148.799 255.913 148.799 255.579 148.501 255.372 Z" />

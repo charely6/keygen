@@ -1,6 +1,6 @@
 // Automatically generated using the Inkscape to OpenSCAD Converter
 // Variable names are of the form <inkscape-path-id>_points and
-// <inkscape-path-id>_paths.  As a result, you can associate a polygon in this
+// <inkscape-path-id>_paths. As a result, you can associate a polygon in this
 // OpenSCAD program with the corresponding SVG element in the Inkscape document
 // by looking for the XML element with the attribute id="inkscape-path-id".
 
