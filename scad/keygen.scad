@@ -131,7 +131,7 @@ module key_blank(outline_points,
     }
 }
 
-function key_code_to_heights(code, depth_table) = [for(i=key_enum(code)) depth_table[search(code[i], "0123456789")[0]]];
+function key_code_to_heights(code, depth_table) = [for(i=key_enum(code)) depth_table[search(code[i], "0123456789x")[0]]];
 
 module key_bitting_cutter(flat, angle, tool_height) {
     polygon([[-0.5 * flat, 0],

@@ -79,6 +79,6 @@ module medeco_classic(bitting="",
 
 // Defaults
 bitting="";
-outline="1515";
-warding="1515";
+outline="1542";
+warding="1542";
 medeco_classic(bitting, outline, warding);
